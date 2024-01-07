@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators, FormsModule, ReactiveFormsModule } 
 import { Router, RouterLink } from '@angular/router';
 import { NgClass, NgIf } from '@angular/common';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { AuthService } from 'src/app/core/services';
 
 @Component({
     selector: 'app-sign-in',
@@ -23,7 +24,11 @@ export class SignInComponent implements OnInit {
   submitted = false;
   passwordTextType!: boolean;
 
-  constructor(private readonly _formBuilder: FormBuilder, private readonly _router: Router) {}
+  constructor(
+    private readonly _formBuilder: FormBuilder,
+    private readonly _router: Router,
+    private authService: AuthService
+  ) {}
 
   ngOnInit(): void {
     this.form = this._formBuilder.group({
@@ -43,12 +48,21 @@ export class SignInComponent implements OnInit {
   onSubmit() {
     this.submitted = true;
     const { email, password } = this.form.value;
-
+    
     // stop here if form is invalid
     if (this.form.invalid) {
       return;
     }
 
-    this._router.navigate(['/']);
+    this.authService.signIn(email, password).subscribe((res: any) => {
+      try {
+        console.log("RESPONSE: ", res);
+        // this._router.navigate(['/']);
+      } catch (error) {
+        console.log("ERROR: ", error);
+      }
+    });
+
+    // this._router.navigate(['/']);
   }
 }
