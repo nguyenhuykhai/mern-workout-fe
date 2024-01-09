@@ -2,23 +2,31 @@
     <img src="src/assets/preview/logo.png" width="150">
 </p>
 
-<p align="center">
-    <a href="https://github.com/luciano-work/angular-tailwind/stargazers">
-        <img height= "24" src="https://img.shields.io/github/stars/luciano-work/angular-tailwind?colorA=1e1e28&colorB=c9cbff&style=for-the-badge">
-    </a>
-    <a href="https://github.com/luciano-work/angular-tailwind/issues">
-        <img height= "24" src="https://img.shields.io/github/issues/luciano-work/angular-tailwind?colorA=1e1e28&colorB=f7be95&style=for-the-badge">
-    </a>
-    <a href="https://github.com/luciano-work/angular-tailwind/contributors">
-        <img height= "24" src="https://img.shields.io/github/contributors/luciano-work/angular-tailwind?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge">
-    </a>
-</p>
+#### Features | Tính năng
 
-#### Motivation
+<b>1. Phòng Tập Luyện:</b></br>
+<p>Giáo viên tập gym hoặc giảng viên có thể tạo ra các phòng tập luyện khác nhau, mỗi phòng dành riêng cho một loại tập luyện cụ thể hoặc loại hình đào tạo, chẳng hạn như Phòng Aerobic hoặc Phòng Sức Mạnh. Những phòng này hoạt động như các không gian ảo nơi người dùng có thể tham gia để truy cập các bài tập liên quan đến chủ đề cụ thể của phòng đó.</p>
 
-For me, the best strategy for learning new skills is to practice. I have created this project to learn more about Tailwind CSS using my favorite framework (Angular). I have to tell you, Tailwind is amazing!
+<b>2. Chức Năng Trò Chuyện:</b></br>
+<p>Trong mỗi phòng tập luyện, người dùng có thể tham gia vào các cuộc trò chuyện với nhau. Điều này có thể được sử dụng để giao tiếp, chia sẻ mẹo, đặt câu hỏi, hoặc tạo nên một tinh thần cộng đồng giữa những người dùng có cùng mục tiêu tập luyện.</p>
 
-<b><img src="https://cdn-icons-png.flaticon.com/512/6897/6897039.png" width="14"/> The project is not finished yet!</b>
+<b>3. Theo dõi Tiến triển:</b></br>
+<p>Cho phép người dùng theo dõi tiến triển tập luyện của họ theo thời gian, bao gồm các chỉ số như trọng lượng tạ, quãng đường đi, hoặc thời gian tập luyện.</p>
+
+<b>4. Gợi ý Tập luyện Cá nhân:</b></br>
+<p>Triển khai hệ thống gợi ý để đề xuất kế hoạch tập luyện cá nhân dựa trên cấp độ thể dục, mục tiêu và sở thích của người dùng.</p>
+
+<b>5. Tích hợp với Các Thiết bị Đo thể Dục:</b>
+<p>Kích hoạt tích hợp với các thiết bị đo thể dục hoặc đồng hồ thông minh phổ biến để tự động ghi lại dữ liệu tập luyện, như nhịp tim, bước đi và lượng calo tiêu thụ.</p>
+
+<b>6. Video Hướng dẫn:</b></br>
+<p>Cung cấp video hướng dẫn cho các bài tập trong kế hoạch tập luyện. Điều này có thể hữu ích đặc biệt đối với những người muốn có hướng dẫn hình ảnh về cách thực hiện đúng tư thế và kỹ thuật.</p>
+
+<b>7. Chia sẻ Xã hội:</b></br>
+<p>Cho phép người dùng chia sẻ những thành tựu tập luyện, những thách thức hoàn thành hoặc tiến triển trên các nền tảng truyền thông xã hội để tạo động lực và tăng sự tham gia cộng đồng.</p>
+
+<b>8. Thách thức và Thành tựu:</b></br>
+<p>Đưa vào thách thức tập luyện và huy chương thành tựu để động viên người dùng và làm cho trải nghiệm tập luyện trở nên thú vị hơn.</p>
 
 See [Demo](https://at.lanno.dev) page.
 
@@ -29,19 +37,6 @@ See [Demo](https://at.lanno.dev) page.
 #### Versions
 
 <a href="https://angular.io"><img height= "24" src= "https://img.shields.io/badge/Angular 17-DD0031?style=for-the-badge&logo=angular&logoColor=white"></a> <a href="https://tailwindcss.com"><img height= "24" src= "https://img.shields.io/badge/Tailwind 3-0ea5e9?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
-
-#### Features
-
-- [x] Sidebar
-- [x] Dark Theme
-- [x] Navbar
-- [x] Footer
-- [x] Auth Module
-- [x] Dashboard Module
-- [x] Standalone components
-- [x] Angular Signals
-- [ ] User Module
-- [ ] Guards
 
 #### Commands
 
@@ -73,8 +68,3 @@ See [Demo](https://at.lanno.dev) page.
 #### Icons and Patterns
 
 This project use [Hero Icons](https://heroicons.com/) and [Hero Patterns](https://heropatterns.com/)
-
-#### Disclaimer
-
-The Tailwind name and logos are trademarks of Tailwind Labs Inc.
-The Angular name and logos are trademarks of Google.
